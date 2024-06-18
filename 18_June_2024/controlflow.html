@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Flow and Functions</title>
+</head>
+
+<body>
+    <script>
+        // Loops
+        for (let i = 0; i < 5; i++) {
+            console.log("Iteration " + i);
+            document.write("Iteration " + i);
+        }
+
+        let j = 0;
+        while (j < 5) {
+            console.log("While Loop Iteration " + j);
+            document.write("While Loop Iteration " + j);
+            j++;
+        }
+
+        // Function Expressions and Arrow Functions
+        const add = function(a, b) {
+            return a + b;
+        };
+
+        const multiply = (a, b) => a + b;
+
+        console.log(add(2, 3)); // 5
+        document.write(add(2, 3));
+        console.log(multiply(2, 3)); // 6
+        document.write(multiply(2, 3));
+
+        // Scope and Closures
+        function outerFunction() {
+            let outerVariable = "I'm outside!";
+
+            function innerFunction() {
+                console.log(outerVariable);
+                document.write(outerVariable);
+            }
+
+            return innerFunction;
+        }
+
+        const closure = outerFunction();
+        closure(); // "I'm outside!"
+    </script>
+</body>
+
+</html>

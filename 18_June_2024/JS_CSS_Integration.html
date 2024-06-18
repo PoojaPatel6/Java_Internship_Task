@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS and JavaScript Integration</title>
+    <style>
+        .highlight {
+            background-color: rgb(0, 132, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <button id="myButton">Click Me</button>
+    <p id="myParagraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, corporis aspernatur? Consectetur impedit voluptatibus autem possimus officia accusamus, ipsa quibusdam ex hic aut saepe, sint iure at fugit eligendi harum, debitis dolore numquam? Eum
+        minus accusantium odio, magni illum praesentium aut exercitationem, assumenda voluptate, corporis sunt error optio non quaerat!</p>
+
+    <script>
+        const button = document.getElementById('myButton');
+        const paragraph = document.getElementById('myParagraph');
+
+        button.addEventListener('click', () => {
+            paragraph.classList.toggle('highlight');
+        });
+    </script>
+</body>
+
+</html>
