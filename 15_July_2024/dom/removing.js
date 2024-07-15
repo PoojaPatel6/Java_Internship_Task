@@ -1,0 +1,3 @@
+// removing element
+
+li.remove();

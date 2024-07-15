@@ -1,0 +1,13 @@
+#main {
+    color: white;
+    background-color: red;
+    text-align: center;
+    font-size: 70px;
+}
+
+.list-items {
+    color: black;
+    background-color: powderblue;
+    font-size: 30px;
+    text-align: left;
+}
