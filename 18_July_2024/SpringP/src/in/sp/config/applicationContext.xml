@@ -25,15 +25,18 @@
     </bean>
      
     </bean>
-    
-      <bean class="in.sp.beans.StudentC" id="BLR>
+     <bean class="in.sp.beans.StudentC" id="BLR>
     <property name = "name" value ="Anshi"></property>
      <property name = "mail" value ="anshi@gmailmail.com"></property>
        <property name = "age" value ="20></property>
-    
-    
-    
-    </bean>
+     </bean>
+
+            </bean>
+     <bean class="in.sp.beans.StudentC" id="BBSR>
+    <property name = "name" value ="Twenty"></property>
+     <property name = "mail" value ="20@gmailmail.com"></property>
+       <property name = "age" value ="21></property>
+     </bean>
  
  
 </beans>
