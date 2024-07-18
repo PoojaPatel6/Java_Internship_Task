@@ -20,6 +20,8 @@ public class Main {
 
 		StudentC s4 = (StudentC) cxt.getBean("BBSR");
 		s4.show();
+		StudentC s5 = (StudentC) cxt.getBean("vns");
+		s5.show();
 	}
 
 }
