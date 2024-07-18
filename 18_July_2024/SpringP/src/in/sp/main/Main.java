@@ -15,6 +15,8 @@ public class Main {
 		
 		StudentC s2 = (StudentC) cxt.getBean("ddn");
 		s2.show();
+		StudentC s3 = (StudentC) cxt.getBean("BLR");
+		s2.show();
 	}
 
 }
