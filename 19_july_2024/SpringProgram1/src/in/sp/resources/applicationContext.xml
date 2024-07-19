@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+   
+   <bean class="in.sp.beans.Student" id="stdID1">
+   <property name="name" value="Pooja"></property>
+    <property name="rollno" value="1"></property>
+     <property name="email" value="pooja@gmail.com"></property>
+    </bean>
+    
+    <bean class="in.sp.beans.Student" id="stdID2">
+   <property name="name" value="Kavita"></property>
+    <property name="rollno" value="2"></property>
+     <property name="email" value="kavi@gmail.com"></property>
+    </bean>
+
+</beans>
