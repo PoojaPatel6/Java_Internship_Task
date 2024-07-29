@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+ <!-- Constructor method -->
+  
+ <!--  <bean class="in.sp.beans.Address" id="addrId2" >
+  <constructor-arg value="100"/>
+   <constructor-arg value="Delhi"/>
+    <constructor-arg value="123243"/>
+  </bean>
+  
+  
+    <bean class="in.sp.beans.Address" id="addrId2" autowire-condidate="false" >
+  <constructor-arg value="10"/>
+   <constructor-arg value="Jaipur"/>
+    <constructor-arg value="123454"/>
+  </bean>
+  
+  
+  
+  
+  
+   <bean class="in.sp.beans.Address" id="stdId" autowire="constructor" >
+  <constructor-arg value="Divya" index="0"/>
+   <constructor-arg value="11" index="1"/>
+
+  </bean>
+   -->
+  
+  
+ 
+ <bean class="in.sp.beans.Address" id="addrId1" >
+ <property name="houseno" value="4"></property>
+  <property name="city" value="bangalore"></property>
+   <property name="pincode" value="244562"></property>
+ 
+ </bean>
+ 
+ 
+  
+ <bean class="in.sp.beans.Address" id="addrId2" autowire-candidate="false" >
+ <property name="houseno" value="5"></property>
+  <property name="city" value="Chennai"></property>
+   <property name="pincode" value="243445"></property>
+ 
+ </bean>
+ 
+ 
+  
+ <bean class="in.sp.beans.Student" id="stdId" autowire="byType">
+ <property name="name" value="Shreya"></property>
+  <property name="rollno" value="2"></property>
+   <property name="address" ref="addrId"></property>
+ 
+ </bean>
+ 
+ 
+</beans>
+
+
+
+
