@@ -99,7 +99,7 @@ public class updatedelete extends HttpServlet {
             res.setContentType("text/html");
 
             if (deleted > 0) {
-                pw.println("Deleted successfully");
+                pw.println("Data is Deleted successfully");
             } else {
                 pw.println("Not Deleted");
             }
