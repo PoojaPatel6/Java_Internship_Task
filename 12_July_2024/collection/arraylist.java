@@ -12,7 +12,7 @@ public class arraylist {
         al1.add(10);
         al1.add(20);
         al1.add(30);
-        al1.add(40);
+        al1.add(50);
 
         System.out.println("Now al1 is traversed: " + al1);
 
