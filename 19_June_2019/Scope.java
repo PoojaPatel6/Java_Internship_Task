@@ -11,7 +11,7 @@ public class Scope {
             System.out.println(a);
             name = "Anshi";
             System.out.println(name);
-            int c = 90;
+            int c = 95;
         }
         int c = 600;
 //        System.out.println(c);
