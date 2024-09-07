@@ -13,7 +13,7 @@
 <h1>
 <%
 //int a = 10;
-//int a = 899/0;     // complie time eeror
+//int a = 898/0;     // complie time eeror
 //out.print(a);
 %>
 
