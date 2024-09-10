@@ -8,7 +8,7 @@
 // console.log(msg);
 
 // let a = 15;
-// b = 20;
+// b = 21;
 // c = 30;
 // console.log(a, b, c);
 
