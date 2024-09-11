@@ -34,7 +34,7 @@ System.out.println("Enter you Mobile: ");
 
 BigInteger ph = s1.nextBigInteger();
 
-System.out.println("Enter your MobileN :"+ph);
+System.out.println("Enter your MobileNo :"+ph);
 
 
 
