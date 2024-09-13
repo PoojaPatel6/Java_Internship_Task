@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 
-<body bgcolor="pink">
+<body bgcolor="green">
 
 <h1 style="color:red">Error: Logical Error</h1><br><br>
 <%=exception.getMessage() %>
