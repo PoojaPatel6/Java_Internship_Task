@@ -14,7 +14,7 @@ public class Primitive {
         System.out.println("Integer value of i  is: " + i);
     
     
-        //short
+      
 
     short s = -10000;
     System.out.println(" value of short is: " + s);
