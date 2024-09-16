@@ -19,7 +19,7 @@ class school extends student {
 }
 
 
-// let obj = new student("Pooja", 24, 10);
+let obj = new student("Pooja", 24, 10);
 let obj = new school("Pooja", 24, 20);
 // obj.data();
 obj.info();
