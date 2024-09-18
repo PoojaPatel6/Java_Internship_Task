@@ -1,5 +1,5 @@
 interface  i1{
-int x = 17;
+int x = 5;
 
 void f1();
 static void f2()
