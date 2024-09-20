@@ -11,18 +11,18 @@ public class Animal {
     }
 
     public void eat(){
-        System.out.println("I am eating");
+        System.out.println("I am Eating");
     }
 
     public void run(){
-        System.out.println("i am running");
+        System.out.println("i am Running");
     }
 }
 
 class Birds{
 
     public void fly(){
-        System.out.println("I am flying");
+        System.out.println("I am Flying");
     }
 
 }
