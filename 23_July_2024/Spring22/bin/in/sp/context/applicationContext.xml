@@ -7,7 +7,7 @@
     <bean class="in.sp.beans.Employee" id="emp1">
         <property name="name" value="Pooja"></property>
         <property name="mail" value="Pooja@gmail.com"></property>
-        <property name="phone" value="8797514075"></property>
+        <property name="phone" value="3477889809"></property>
         <property name="skill" value="Mean,AWS"></property>
     </bean>
     
