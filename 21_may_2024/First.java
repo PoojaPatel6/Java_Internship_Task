@@ -17,7 +17,7 @@ class First{
 
 
         int a,b,c;
-        a= 50;
+        a=  50;
         b = 40;
         c = 30;
         System.out.println(a);
