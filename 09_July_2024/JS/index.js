@@ -25,7 +25,7 @@
 if (5 > 2) {
     console.log("5 is greater is than 2");
     let add = "karnataka";
-    var city = "mumbai";
+    var city = "Mumbai";
     // console.log(add);
     // console.log(city);
 }
