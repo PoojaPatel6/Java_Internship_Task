@@ -11,7 +11,7 @@ public class Animal {
     }
 
     public void eat(){
-        System.out.println("I am Eating");
+        System.out.println("I Am Eating");
     }
 
     public void run(){
