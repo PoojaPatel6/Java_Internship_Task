@@ -7,7 +7,7 @@
 //msg = "how are you ?" // assignment
 // console.log(msg);
 
-// let a = 15;
+// let a = 16;
 // b = 21;
 // c = 30;
 // console.log(a, b, c);
